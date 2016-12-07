@@ -1,6 +1,6 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQKdZFfvcMuJTD8bmWmYfMfgRa2-w1qrVEjrPQIMs66-xKffYT_1Q");
       background-size: cover;
       color: white;
     }
@@ -9,6 +9,9 @@
     }
     h1 {
       font-size: 70px;
+      color:red;
+        font-size: 36px;
+        padding: 5px;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -29,12 +32,38 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
+     
+      
       li {
         padding: 5px;
         display: block;
       }
     }
+body{
+      background-image: url("http://img04.deviantart.net/10f3/i/2015/041/4/5/eyeless_jack_by_louasmourbif-d8hg506.jpg");  
+  
+    background-size: cover;
+} 
+p{
+  color:white;
+}
+.project{
+  	 
+    
+     width: 200px;
+    
+   
+    border: 20px outset green;
+       float: left;
+
+}
+
+.projectII{
+  	 
+    
+    width: 200px;
+    
+    border: 20px outset green;
+       float: left;
+
+}
